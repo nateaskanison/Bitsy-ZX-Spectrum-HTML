@@ -7572,6 +7572,8 @@ function startItemDialog(itemId, dialogCallback) {
 	}
 }
 
+function startSpriteDialog(spriteId) {
+	var spr = sprite[spriteId];
 	var dialogId = spr.dlg;
 	// console.log("START SPRITE DIALOG " + dialogId);
 	if (dialog[dialogId]){
